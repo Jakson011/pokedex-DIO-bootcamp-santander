@@ -1,0 +1,15 @@
+
+Requisição HTTP
+URL https://pokeapi.co/api/v2/pokemon
+    ${IP}/${path = caminho de identificao da requisição}
+
+
+query string - URL https://pokeapi.co/api/v2/pokemon?type-gress&nmaei
+   apos o caminho da requisicao =  ?type-gress&nmae
+
+
+URL               == https://pokeapi.co/api/v2/pokemon
+Request Method    == GET / POST / PUT / DELETE / PUSH
+Request Header    == content-type: application/jason
+Request Body      == {"name": "teste"}
+Status code       == 200 OK ...
